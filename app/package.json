@@ -1,22 +1,38 @@
 {
-  "name": "hello-expressjs",
+  "name": "catbot",
   "version": "1.0.0",
-  "description": "A sample express.js application that can be deployed to Skyliner.",
+  "description": "catbot ---",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit tests",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skylinerhq/hello-expressjs.git"
+    "url": "git+https://github.com/Moishe/catbot.git"
   },
-  "author": "Dan McKinley",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skylinerhq/hello-expressjs/issues"
+    "url": "https://github.com/Moishe/catbot/issues"
   },
-  "homepage": "https://github.com/skylinerhq/hello-expressjs#readme",
+  "homepage": "https://github.com/Moishe/catbot#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "@slack/client": "^3.1.0",
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "fs": "0.0.2",
+    "github-trending": "^1.3.1",
+    "gm": "^1.22.0",
+    "imagemagick": "^0.1.3",
+    "lodash": "^4.6.1",
+    "mkdirp": "^0.5.1",
+    "node-localstorage": "^1.3.0",
+    "nodeunit": "^0.9.1",
+    "sanitize-filename": "^1.6.0"
   }
 }

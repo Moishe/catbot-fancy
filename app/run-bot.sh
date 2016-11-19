@@ -1,0 +1,1 @@
+SLACK_API_TOKEN=xoxb-42589264161-kWnIKCMh11zYDHIliTF2mxOA node catbot.js
