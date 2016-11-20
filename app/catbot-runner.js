@@ -59,7 +59,7 @@ CatRunner.prototype.handleRtmMessage = function(message) {
 
 		handler = this.loader(moduleName);
 		if (!handler) {
-			this.rtm.sendMessage("I don't know how to " + moduleName ". 😞 <a href=''>Teach me?</a>");
+			this.rtm.sendMessage("I don't know how to ?" + moduleName + ". 😞 <a href=''>Teach me?</a>");
 			console.log('no handler for ' + moduleName);
 			return;
 		}
